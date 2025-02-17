@@ -3,6 +3,7 @@
 A simple CRUD (Create, Read, Update, Delete) project in Angular to demonstrate the following concepts:
 ✅ Routing
 ✅ Interpolation
+✅ FormGroup
 ✅ Lazy Loading
 ✅ Component Nesting
 
