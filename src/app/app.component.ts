@@ -1,13 +1,18 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from '../header/header.component';
+import { NotesListComponent } from '../notes-list/notes-list.component';
+import { AddNoteComponent } from '../add-note/add-note.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [
+    HeaderComponent,
+    NotesListComponent,
+    AddNoteComponent,
+    RouterModule,
+  ],
 })
-export class AppComponent {
-  title = 'note_crud';
-}
+export class AppComponent {}
