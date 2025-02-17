@@ -1,3 +1,11 @@
+# 🅰️ Angular CRUD - Demo of Angular Functionality 
+
+A simple CRUD (Create, Read, Update, Delete) project in Angular to demonstrate the following concepts:
+✅ Routing
+✅ Interpolation
+✅ Lazy Loading
+✅ Component Nesting
+
 # NoteCrud
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
